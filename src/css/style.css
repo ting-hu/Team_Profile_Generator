@@ -1,0 +1,43 @@
+/*Header*/
+a,
+p,
+li {
+  color: #1c1f22;
+}
+.heading {
+  text-align: center;
+  background-color: #f0e5cf;
+}
+.heading-title {
+  padding: 2rem;
+}
+
+/*Cards*/
+.columns {
+  margin-top: 1rem;
+}
+.media {
+  background-color: #f7f6f2;
+  padding: 1rem;
+}
+
+.title {
+  color: rgb(24, 23, 23);
+}
+.subtitle {
+  color: rgb(94, 91, 91);
+}
+li {
+  list-style-type: none;
+  padding-left: 3rem;
+}
+.content {
+  padding-bottom: 1rem;
+}
+.card-content {
+  padding: 0;
+}
+.card {
+  padding: 0;
+  margin: 1rem;
+}
