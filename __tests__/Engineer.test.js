@@ -1,7 +1,7 @@
 const Engineer = require("../lib/Engineer");
 
 test("Creating an engineer object", () => {
-  const engineer = new Engineer("Ting", 5, "ting@email", "github");
+  const engineer = new Engineer("Ting", 5, "ting@email", "ting-hu");
 
   expect(engineer.name).toBe("Ting");
   expect(engineer.id).toEqual(expect.any(Number));
@@ -10,7 +10,7 @@ test("Creating an engineer object", () => {
 });
 
 test("Getters for an engineer", () => {
-  const engineer = new Engineer("Ting", 5, "ting@email", "github");
+  const engineer = new Engineer("Ting", 5, "ting@email", "ting-hu");
 
   expect(engineer.getName()).toEqual("Ting");
   expect(engineer.getId()).toEqual(expect.any(Number));

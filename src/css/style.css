@@ -6,26 +6,25 @@ li {
 }
 .heading {
   text-align: center;
-  background-color: #f0e5cf;
+  background-color: #8e9aaf;
 }
 .heading-title {
   padding: 2rem;
 }
-
-/*Cards*/
 .columns {
   margin-top: 1rem;
 }
 .media {
-  background-color: #f7f6f2;
+  background-color: #8e9aaf;
   padding: 1rem;
 }
 
 .title {
-  color: rgb(24, 23, 23);
+  color: #cbc0d3;
 }
+
 .subtitle {
-  color: rgb(94, 91, 91);
+  color: #efd3d7;
 }
 li {
   list-style-type: none;
